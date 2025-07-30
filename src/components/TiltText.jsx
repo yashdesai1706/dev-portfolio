@@ -14,7 +14,7 @@ function TiltText() {
           <h1 className='responsive-text' style={{ color: 'yellow ', fontFamily: 'Anzo2' }}>WEB DEVELOPER</h1>
           <h4 className='text-white responsive-text' style={{ fontFamily: 'Anzo2' }}> TO HIRE</h4>
           
-          <a href='#contact' style={{textDecorationLine:'none'}}> <button className='btn' style={{ borderRadius: '20px', border: '2px solid gray', fontFamily: 'Anzo2' }}>
+          <a href='#contact' style={{textDecorationLine:'none'}}> <button className='btn' style={{ borderRadius: '20px', border: '2px solid gray', fontFamily: 'Anzo2',textDecorationLine:'none' }}>
              HIRE ME
             </button></a> 
          
