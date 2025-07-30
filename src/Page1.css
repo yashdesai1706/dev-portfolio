@@ -1,0 +1,21 @@
+.background{
+    background-image: url(/src/Assets/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: auto ;    
+    min-height: auto;   /* Optional: Make it fill screen height */
+   overflow-y: hidden;
+    margin: 0px; 
+    padding: 0px;/* Prevent accidental horizontal scroll */
+}
+
+@media (max-width: 576px) {
+    .background {
+       background-image: url(/src/Assets/bg.jpg);
+       background-position-x: left;
+    }
+}
+
+
+

@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Anzo1';         
+  src: url('./Assets/file.woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Anzo2';         
+  src: url('./Assets/file\ \(1\).woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Anzo3';         
+  src: url('./Assets/file\ \(2\).woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Anzo4';         
+  src: url('./Assets/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ html,body {
+  overflow: auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+ 
+}
+/* Prevent nested scrollbars */
+ body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+*{
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 10px; /* vertical scrollbar width */
+  height: 8px; /* horizontal scrollbar height */
 }
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ebf707, #f9d423); /* colorful thumb */
+  border-radius: 10px;
+}
+
+/* Scrollbar Track Background */
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Hover effect on Thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+.custom-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+

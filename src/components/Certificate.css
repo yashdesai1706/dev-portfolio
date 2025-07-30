@@ -1,0 +1,46 @@
+.fsize{
+    font-size: 16px;
+}
+
+
+.style{
+  font-size: 25px;
+  text-align: center;
+  color:rgb(156, 156, 13)
+}
+
+#certi{
+  height: 140vh;
+  overflow-y: hidden;
+}
+.text{
+  font-size: 100px;
+  font-family: Anzo2;
+}
+
+
+
+@media (max-width: 767px) {
+  .fsize {
+    font-size: 14px;
+  }
+  .text{
+  font-size: 40px;
+  font-family: Anzo2;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fsize {
+    font-size: 16px;
+  }
+  .text{
+  font-size: 100px;
+  font-family: Anzo2;
+}
+}
+
+
+
+

@@ -1,0 +1,146 @@
+/* Full Page Background */
+.contact-page {
+  background-color: rgb(247, 247, 247);
+  min-height: 100vh;
+ padding: 0px;
+  margin: 20px;
+  border-radius: 20px;
+
+ 
+}
+
+/* Main Card */
+.contact-card {
+  background: linear-gradient(to right, #181717, #545353);
+  border-radius: 20px;
+  max-width: 1500px;
+ width: 100%;
+  padding: 40px 30px;
+  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  height: 100vh;
+  margin: 0px;
+
+}
+
+/* Title & Subtitle */
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: yellow;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+/* Form Fields */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: #121212;
+  color: white;
+  border: 1px solid #333;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: yellow;
+  outline: none;
+}
+
+/* Button */
+.contact-button {
+  width: 100%;
+  background: yellow;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ 
+  
+}
+
+.contact-button:hover {
+  background: #e6e600;
+}
+
+/* Social Media Links */
+.social-media-links {
+  margin-top: 30px;
+}
+
+
+
+
+/* Responsive Design */
+@media(max-width: 576px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+}
+
+.contact-card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infologo1,
+.infologo2,
+.infologo3 {
+  height: 35px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.infotext {
+  font-size: 1.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .contact-card-2 .d-flex {
+    margin-bottom: 10px !important;
+  }
+
+  .infotext {
+    font-size: 1.1rem !important;
+  }
+
+  .infologo1,
+  .infologo2,
+  .infologo3 {
+    height: 28px !important;
+    margin-right: 10px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .infotext {
+    font-size: 0.7rem !important;
+  }
+
+  .infologo1,
+  .infologo2,
+  .infologo3 {
+    height: 24px !important;
+    margin-right: 8px !important;
+  }
+}

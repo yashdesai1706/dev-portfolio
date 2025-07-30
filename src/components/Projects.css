@@ -1,0 +1,30 @@
+
+.projects-section{
+    min-height: auto !important;
+    overflow-y: hidden !important;
+    margin-top: 80px;
+}
+
+.desc{
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+  
+
+}
+
+@media (max-width: 768px) {
+
+ 
+}
+
+@media (max-width: 576px) {
+
+  .projects-section{
+    min-height: auto !important;
+    overflow-y: hidden !important;
+    margin-top: 50px;
+}
+
+}

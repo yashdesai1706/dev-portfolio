@@ -1,0 +1,61 @@
+.logos{
+    width: auto;
+    padding: 0px;
+   
+}
+.logo{
+    height: 50px;
+    width: auto;
+    padding: 4px;
+}
+
+@media (min-width: 768px) {
+.logos{
+    margin-left: 7%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+}
+
+@media (max-width: 768px) {
+  
+ .logos{
+    margin-left: 43%;
+  
+}
+.logo{
+    padding-bottom: 10px;
+}
+}
+
+@media (max-width: 576px) {
+     .logos{
+    margin-left: 32%;
+  
+}
+.logo{
+ height: 50px;
+ padding: 3px;
+ margin-top: 15px;
+}
+}
+
+.floating-logo {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
