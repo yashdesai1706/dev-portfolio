@@ -23,10 +23,10 @@ function MyNavbar() {
 
   return (
     <>
-      <Navbar bg="transparent" variant='dark' expand="sm" className="mb-3 sticky-top" >
+      <Navbar bg="transparent" variant='dark' expand="sm" className="mb-3 " >
         <Container fluid>
           <Navbar.Brand href="#">
-            <img className='img-fluid' style={{ height: '90px', width: 'auto' }} src={yd} alt="Logo" />
+            <img className='img-fluid' style={{ height: '70px', width: 'auto' }} src={yd} alt="Logo" />
           </Navbar.Brand>
 
           {/* Correct Toggle Button */}
@@ -54,7 +54,6 @@ function MyNavbar() {
                 <Nav.Link href="#contact" className='hover' eventKey="contact" style={{ fontFamily: 'Anzo2' }}>CONTACT</Nav.Link>
                  <Nav.Link href="#projects" className='hover' eventKey="contact" style={{ fontFamily: 'Anzo2' }}>PROJECTS</Nav.Link>
                   <Nav.Link href="#certi" className='hover' eventKey="contact" style={{ fontFamily: 'Anzo2' }}>CERTIFICATIONS</Nav.Link>
-
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

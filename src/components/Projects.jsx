@@ -22,9 +22,21 @@ function Projects() {
       title: "Superstore Management System",
       description: "The Superstore Management System is a comprehensive desktop/web application designed to streamline the operations of a retail store. It manages inventory, billing, customer records, and sales analytics in one centralized platform.",
       tech: ["MERN Stack", "ML", "Bootstrap"],
-
       btn: "In Progress"
     },
+
+      {
+      title: "Superstore Management System",
+      description: "The Superstore Management System is a comprehensive desktop/web application designed to streamline the operations of a retail store. It manages inventory, billing, customer records, and sales analytics in one centralized platform.",
+      tech: ["MERN Stack", "ML", "Bootstrap"],
+      btn: "In Progress"
+    },
+      {
+      title: "Superstore Management System",
+      description: "The Superstore Management System is a comprehensive desktop/web application designed to streamline the operations of a retail store. It manages inventory, billing, customer records, and sales analytics in one centralized platform.",
+      tech: ["MERN Stack", "ML", "Bootstrap"],
+      btn: "In Progress"
+    }
 
   ];
 

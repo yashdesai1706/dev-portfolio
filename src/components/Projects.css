@@ -1,6 +1,6 @@
 
 .projects-section{
-    min-height: auto !important;
+    min-height: 130vh !important;
     overflow-y: hidden !important;
     margin-top: 80px;
 }

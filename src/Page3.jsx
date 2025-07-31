@@ -76,7 +76,17 @@ function Page3() {
             <section className="hero text-center py-5">
               <h1 style={{ fontFamily: 'Anzo2' }}>Hi, I'm Yash Desai</h1>
               <p style={{ fontFamily: 'Anzo2' }}>Passionate Web Developer | Building Solutions with React.js and Node.js</p>
-              <a href="/Yash_Desai_Resume.pdf" className="btn btn-primary" style={{ fontFamily: 'Anzo2', margin: 'auto', width: 'auto' }}>Download Resume</a>
+<a 
+  href="/Yash_Desai_Resume.pdf" 
+  className="btn btn-primary" 
+  style={{ fontFamily: 'Anzo2', margin: 'auto', width: 'auto' }} 
+  download 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  Download Resume
+</a>
+
             </section>
           </div>
         </div>
